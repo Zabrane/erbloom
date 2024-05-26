@@ -39,7 +39,8 @@ rust 1.76.0:
 > rustup default 1.76.0
 
 ## Check RUST version:
-> rustc --version                                                                                                                                                              rustc 1.76.0 (07dca489a 2024-02-04)
+> rustc --version
+rustc 1.76.0 (07dca489a 2024-02-04)
 ```
 
 ## Using as a lib
