@@ -24,6 +24,24 @@ rebar.config:
 erlang.mk:
 `dep_erbloom = hex 2.1.0-rc.2`
 
+rust 1.76.0:
+```bash
+## Installing multiple versions of Rust on Mac using Homebrew:
+## https://www.chrisjmendez.com/2022/02/22/installing-multiple-versions-of-rust-on-your-mac-using-homebrew/
+## https://users.rust-lang.org/t/how-to-install-older-version-toolchain/43223
+## Ubuntu/Debian:
+> apt install rustup
+## macOS:
+> brew install rustup
+
+> rustup-init
+> rustup install 1.76.0
+> rustup default 1.76.0
+
+## Check RUST version:
+> rustc --version                                                                                                                                                                rustc 1.76.0 (07dca489a 2024-02-04)
+```
+
 ## Using as a lib
 1. Add deps in rebar.conf:
   ```
